@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOLS Assignment Results Page </title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    /* Header Bar */
+    .top-header {
+      background: #222;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 5px solid #d35400;
+    }
+
+    .top-header .logo {
+      display: flex;
+      align-items: center;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .top-header img {
+      height: 45px;
+      margin-right: 10px;
+    }
+
+    .top-header .user {
+      font-size: 15px;
+    }
+
+    /* Second Row */
+    .sub-header {
+      background: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .sub-header h1 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    .year-select {
+      font-size: 16px;
+      padding: 5px;
+    }
+
+    /* Content */
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #004b7c;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+    }
+
+    th {
+      background-color: #006b9e;
+      color: white;
+      text-align: left;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    td {
+      padding: 10px;
+      border-bottom: 1px solid #dddddd;
+      font-size: 14px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #555;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="top-header">
+    <div class="logo">
+      <img src="/Users/melvinross/Downloads/UOWD_Secondary_CMYK_White.png" alt="UOW Logo" />
+      UOW Student Online Services
+    </div>
+    <div class="user">👤 Mr Melvin Andy ROSS (7806735) ▼</div>
+  </div>
+
+  <!-- Second Bar -->
+  <div class="sub-header">
+    <h1>Assignment Results</h1>
+    <div>
+      <label for="year-select">Select Year</label>
+      <select id="year-select" class="year-select">
+        <option>2025</option>
+        <option>2024</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+
+    <h2>CSCI235 (DXB UG Autumn) Database Systems</h2>
+    <table>
+      <tr>
+        <th>Assignment</th>
+        <th>Mark/Out of</th>
+        <th>Weight</th>
+        <th>Comments</th>
+      </tr>
+      <tr>
+        <td>Not Available</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <h2>CSIT114 (DXB UG Autumn) System Analysis</h2>
+    <table>
+      <tr>
+        <th>Assignment</th>
+        <th>Mark/Out of</th>
+        <th>Weight</th>
+        <th>Comments</th>
+      </tr>
+      <tr>
+        <td>Practical Assignment - Deliverable 1</td>
+        <td>76/100</td>
+        <td>4%</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Midterm Exam</td>
+        <td>19.81/25</td>
+        <td>25%</td>
+        <td></td>
+      </tr>
+    </table>
+
+    <h2>MATH255 (DXB UG Autumn) Mathematics for Computing</h2>
+    <table>
+      <tr>
+        <th>Assignment</th>
+        <th>Mark/Out of</th>
+        <th>Weight</th>
+        <th>Comments</th>
+      </tr>
+      <tr>
+        <td>Quiz 1 Discrete exam conditions</td>
+        <td>7/10</td>
+        <td>7.5%</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Test 1 Moodle Based</td>
+        <td>25.81/35</td>
+        <td>22.27%</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Test 1: Paper Based</td>
+        <td>16/20</td>
+        <td>12.73%</td>
+        <td>MK</td>
+      </tr>
+    </table>
+
+  </div>
+
+  <div class="footer">
+    Copyright © 2025 University of Wollongong · SOLS System 
+  </div>
+</body>
+</html>
